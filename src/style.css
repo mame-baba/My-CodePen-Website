@@ -1,0 +1,130 @@
+header {
+  display: flex;
+  position: relative;
+}
+#header-img {
+  width: 100px;
+  margin-left: 20px;
+  position: fixed;
+  border-radius: 50%
+}
+nav#nav-bar ul {
+  display: flex;
+  font-size: 25px;
+  background-color: #FFD700; 
+  margin-left: 280px;
+  
+    
+}
+nav#nav-bar ul li {
+  display: flex;
+  margin-left: 200px;
+  color: black; 
+  
+}
+@media screen(max-width:700px ) {
+  header {
+    flex-direction: column;
+  }
+}
+#nav-bar {
+  position: fixed;
+   
+  
+}
+iframe {
+  width: 50%;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border: 10px solid grey;
+  border-radius: 10px;
+  margin-left: 400px;
+  text-align: center; 
+}
+h2 {
+  font-size: 40px; 
+  background-color: gray;
+  border-radius: 400px;
+  margin-left: 100px;
+  color: #000000;
+  margin-top: 150px;
+  text-align: center; 
+}
+#first-box {
+  border: 2px solid;
+  flex: 1;
+  max-width: 30%;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: silver;
+  float: right; 
+}
+
+#second-box {
+  border: 2px solid;
+  flex: 1;
+  max-width: 30%;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: silver;
+  float: initial; 
+  }
+
+#email {
+  background-color: black;
+  color: #fff;
+  padding: 10px 20px 10px 30px;
+  border-radius: 10px;
+  border-width: 5px;
+  border-color: silver;
+}
+.more-info {
+  background-color: silver;
+  border-radius: 400px;
+  margin-left: 300px;
+  color: black;
+}
+#selectbtn {
+  font-size: 15px; 
+  font-family: helvetica monospace; 
+  display: flex;
+  position: relative;
+  text-align: center; 
+}
+#submit{
+  font-size: 15px; 
+  font-family: lobster;
+  text-align: center; 
+  }
+#title{
+  font-size: 20px; 
+  font-family: lobster;
+  color: black ;
+  background-color: silver; 
+  text-align: center;
+  }
+.title{ 
+   font-size: 20px; 
+  font-family: lobster;
+  color: black ;
+  background-color: silver; 
+  text-align: center;
+}
+#selectbtn1{
+  font-size: 15px; 
+  font-family: helvetica monospace; 
+  display: flex;
+  position: relative;
+  text-align: center; 
+  }
+p{
+  font-size: 25px; 
+  font-family: monospace; 
+}
+#form{
+  text-align: center; 
+}
+#video{
+  text-align: center; 
+ padding: 5px 0px 5px 0px;
+  }
